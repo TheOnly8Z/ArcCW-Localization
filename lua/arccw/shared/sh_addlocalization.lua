@@ -4,6 +4,8 @@ local function AddLocalization()
             ["attslot.optic"] = "准镜",
             ["attslot.bkoptic"] = "备用准镜",
             ["attslot.muzzle"] = "枪口",
+            ["attslot.barrel"] = "枪管",
+            ["attslot.choke"] = "制退器",
             ["attslot.underbarrel"] = "下挂",
             ["attslot.tactical"] = "侧挂",
             ["attslot.grip"] = "握把",
@@ -15,7 +17,9 @@ local function AddLocalization()
             ["attslot.skin"] = "皮肤",
             ["attslot.noatt"] = "无",
             ["attslot.optic.default"] = "机械瞄具",
-            ["attslot.muzzle.default"] = "标准枪管",
+            ["attslot.muzzle.default"] = "标准枪口",
+            ["attslot.barrel.default"] = "标准枪管",
+            ["attslot.choke.default"] = "标准制退器",
             ["attslot.grip.default"] = "标准握把",
             ["attslot.stock.default"] = "标准枪托",
             ["attslot.stock.none"] = "无枪托",
@@ -138,6 +142,44 @@ local function AddLocalization()
             ["autostat.glint"] = "准镜反光",
             ["autostat.thermal"] = "热成像",
             ["autostat.silencer"] = "消音效果",
+
+            -- TTT
+            ["ttt.roundinfo"] = "ArcCW 配置",
+            ["ttt.roundinfo.replace"] = "自动替换TTT武器",
+            ["ttt.roundinfo.cmode"] = "配件自定义模式:",
+            ["ttt.roundinfo.cmode0"] = "无限制",
+            ["ttt.roundinfo.cmode1"] = "受限制",
+            ["ttt.roundinfo.cmode2"] = "游戏开始前可以",
+            ["ttt.roundinfo.cmode3"] = "只允许叛徒/侦探",
+
+            ["ttt.roundinfo.attmode"] = "配件拥有模式:",
+            ["ttt.roundinfo.free"] = "全选",
+            ["ttt.roundinfo.locking"] = "锁定",
+            ["ttt.roundinfo.inv"] = "背包",
+            ["ttt.roundinfo.persist"] = "死后保留",
+            ["ttt.roundinfo.drop"] = "死后掉落",
+            ["ttt.roundinfo.pickx"] = "最多配件：",
+
+            ["ttt.roundinfo.bmode"] = "尸体配件信息:",
+            ["ttt.roundinfo.bmode0"] = "无",
+            ["ttt.roundinfo.bmode1"] = "侦探可见",
+            ["ttt.roundinfo.bmode2"] = "有",
+
+            ["ttt.roundinfo.amode"] = "弹药爆炸:",
+            ["ttt.roundinfo.amode-1"] = "禁用",
+            ["ttt.roundinfo.amode0"] = "简易",
+            ["ttt.roundinfo.amode1"] = "破片",
+            ["ttt.roundinfo.amode2"] = "破片+燃烧",
+            ["ttt.roundinfo.achain"] = "连锁反应",
+
+            ["ttt.bodyatt.found"] = "你觉得凶器上应该",
+            ["ttt.bodyatt.founddet"] = "你的侦探直觉推测凶器上",
+            ["ttt.bodyatt.att1"] = "安装了{att}。",
+            ["ttt.bodyatt.att2"] = "安装了{att1}和{att2}。",
+            ["ttt.bodyatt.att3"] = "安装了这些配件：",
+
+            ["ttt.attachments"] = "个配件：", -- Used in TTT2 TargetID
+            ["ttt.ammo"] = "弹药：", -- Used in TTT2 TargetID
 
             -- CS+ Pros and Cons
             ["pro.ignite"] = "点燃目标",
@@ -372,6 +414,12 @@ local function AddLocalization()
         }
     }
     table.Merge(ArcCW.LangTable, addlang)
+
+    --[[]
+    LANG.AddToLanguage("Chinese", "search_dmg_buckshot", "这个人被霰弹喷了一脸。")
+    LANG.AddToLanguage("Chinese", "search_dmg_nervegas", "这人脸色苍白，一定是被毒气害死了。")
+    LANG.AddToLanguage("Chinese", "ammo_smg1_grenade", "枪榴弹")
+    ]]
 end
 
 hook.Add("ArcCW_LocalizationLoaded", "ArcCW_CustomLangs", AddLocalization)
