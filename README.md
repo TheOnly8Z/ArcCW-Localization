@@ -16,7 +16,7 @@ We recommend submitting translations of non-official packs to the respective add
 ## How to Contribute
 
 - Fork this repository using the top right button
-- Create a new localization file. It must be in the form of `localization_LANGUAGECODE.lua`, where `LANGUAGECODE` is what `gmod_language` is set to for that language (like `en`, `zh-cn` in **lowercase**.
+- Create a new localization file. It must be in the form of `localization_LANGUAGECODE.lua`, where `LANGUAGECODE` is what `gmod_language` is set to for that language (like `en`, `zh-cn`) in **lowercase**.
 - Add to the new file. You need a global table L, and within it the entries. For example: `L["stat.stat"] = "属性"`.
 - Submit a pull request
 
