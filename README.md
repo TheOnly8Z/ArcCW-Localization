@@ -1,19 +1,19 @@
-# ArcCW-Localization
+# ArcCW Localization
 Multi language strings for ArcCW and various content packs
 
-# Contents
+## Contents
 
 We recommend submitting translations of non-official packs to the respective addon authors instead of here.
 
-## Base Pack
+### Base Pack
 
 - **Simplified Chinese**: 8Z
 
-## CS+
+### CS+
 
 - **Simplified Chinese**: 8Z
 
-# How to Contribute
+## How to Contribute
 
 - Fork this repository using the top right button
 - Add to the localization file and commit your changes
