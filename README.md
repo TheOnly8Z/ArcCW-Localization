@@ -19,7 +19,7 @@ We recommend submitting translations of non-official packs to the respective add
 - Add to the localization file and commit your changes
 - Submit a pull request
 
-The original English tables are here [(for Base pack)](https://github.com/HaodongMo/ArcCW/blob/master/lua/arccw/shared/sh_localization.lua) and here [(for CS+)](https://github.com/HaodongMo/ArcCW-CS-/blob/master/lua/arccw/shared/sh_csp_localization.lua).
+The original English tables are here [(for Base pack)](https://github.com/HaodongMo/ArcCW/blob/master/lua/arccw/shared/languages/base_en.lua) and here [(for CS+)](https://github.com/HaodongMo/ArcCW-CS-/blob/master/lua/arccw/shared/languages/csp_en.lua).
 
 These tables do not contain the names and descriptions of weapons and attachments. To translate those, add lang strings in the form of `name.class_name` and `desc.class_name`. Refer to existing translation for details.
 
