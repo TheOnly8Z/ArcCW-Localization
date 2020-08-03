@@ -1,7 +1,9 @@
 # ArcCW-Localization
-Multi language strings for ArcCW and CS+
+Multi language strings for ArcCW and various content packs
 
 # Contents
+
+We recommend submitting translations of non-official packs to the respective addon authors instead of here.
 
 ## Base Pack
 
