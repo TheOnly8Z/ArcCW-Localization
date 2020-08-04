@@ -8,6 +8,8 @@ We recommend submitting translations of non-official packs to the respective add
 ### Base Pack
 
 - **Simplified Chinese**: 8Z
+- **English - Pirate**: Fesiug
+- **Spanish**: rzen1th
 
 ### CS+
 
