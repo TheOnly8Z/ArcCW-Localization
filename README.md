@@ -9,6 +9,7 @@ We recommend submitting translations of non-official packs to the respective add
 
 - **Simplified Chinese**: 8Z
 - **Spanish**: rzen1th
+- **English - Pirate**: Fesiug
 
 ### CS+
 
@@ -19,6 +20,7 @@ We recommend submitting translations of non-official packs to the respective add
 - Fork this repository using the top right button
 - Create a new localization file. It must be in the form of `localization_LANGUAGECODE.lua`, where `LANGUAGECODE` is what `gmod_language` is set to for that language (like `en`, `zh-cn`) in **lowercase**.
 - Add to the new file. You need a global table L, and within it the entries. For example: `L["stat.stat"] = "属性"`.
+- Add your new language and name to the above list
 - Submit a pull request
 
 The original English tables are here [(for Base pack)](https://github.com/HaodongMo/ArcCW/blob/master/lua/arccw/shared/languages/base_en.lua) and here [(for CS+)](https://github.com/HaodongMo/ArcCW-CS-/blob/master/lua/arccw/shared/languages/csp_en.lua).
