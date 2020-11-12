@@ -144,6 +144,7 @@ L["arccw.cvar.mult_reloadtime"]           = "装填耗时"
 L["arccw.cvar.mult_sighttime"]            = "瞄准耗时"
 L["arccw.cvar.mult_defaultclip"]          = "自带弹药"
 L["arccw.cvar.mult_attchance"]            = "随机配件几率"
+L["arccw.cvar.mult_heat"]                 = "热量增长"
 -- ArcCW_Options_Atts
 L["arccw.attdesc1"]                       = "ArcCW 支持插件背包模式（类似 ACT3），插件解锁模式（类似 CW2.0）以及无限制模式（类似 TFA）。"
 L["arccw.attdesc2"]                       = "关闭所有设置则使用背包模式，需要捡起插件才能装备。"
