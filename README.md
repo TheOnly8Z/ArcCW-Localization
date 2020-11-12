@@ -25,6 +25,8 @@ N/A
 
 ## How to Contribute
 
+To contribute, you must be either a native speaker or proficient in the language - machine translation fares poorly with game-related content.
+
 - Fork this repository using the top right button
 - Create a new localization file. It must be in the form of `TYPE_LANGUAGECODE.lua`, where `TYPE` is either `base`, `csp` or `gso`, and `LANGUAGECODE` is what `gmod_language` is set to for that language (like `en`, `zh-cn`) in **lowercase**.
 - Add to the new file. You need a global table L (define it with `L = {}`), and within it the entries. For example: `L["stat.stat"] = "属性"`.
