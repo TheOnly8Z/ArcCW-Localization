@@ -188,8 +188,8 @@ L["ttt.attachments"] = "个配件：" -- Used in TTT2 TargetID
 L["ttt.ammo"] = "弹药：" -- Used in TTT2 TargetID
 
 -- Shit that used to be in CS+ why
-L["info.togglesight"] = "双击 +USE 切换瞄具"
-L["info.toggleubgl"] = "双击 +ZOOM 切换下挂装备"
+L["info.togglesight"] = "双击使用键切换瞄具"
+L["info.toggleubgl"] = "双击放大键切换下挂装备"
 L["pro.ubgl"] = "可使用下挂榴弹发射器"
 L["pro.ubsg"] = "可使用下挂霰弹枪"
 L["con.obstruction"] = "可能会阻挡瞄具"
@@ -197,11 +197,11 @@ L["autostat.underwater"] = "水下开火"
 L["autostat.sprintshoot"] = "疾跑开火"
 
 -- Incompatibility Menu
-L["incompatible.title"] = "ArcCW: INCOMPATIBLE ADDONS"
-L["incompatible.line1"] = "You have some addons that are known to not work with ArcCW."
-L["incompatible.line2"] = "Disable them or expect broken behavior!"
-L["incompatible.confirm"] = "Acknowledge"
-L["incompatible.wait"] = "Wait {time}s"
-L["incompatible.never"] = "Never warn me again"
-L["incompatible.never.hover"] = "Are you absolutely sure you understand the consequences?"
-L["incompatible.never.confirm"] = "You have chosen to never show incompatiblity warnings again. If you encounter errors or broken behaviour, it is your own responsibility."
+L["incompatible.title"] = "ArcCW: 插件冲突"
+L["incompatible.line1"] = "你安装了一些已知和此插件冲突的插件。"
+L["incompatible.line2"] = "禁用它们，不然可能出现问题！"
+L["incompatible.confirm"] = "了解"
+L["incompatible.wait"] = "等待 {time}秒"
+L["incompatible.never"] = "不再显示"
+L["incompatible.never.hover"] = "你彻底明白这些插件的作用吗？"
+L["incompatible.never.confirm"] = "你选择了再也不显示这个警告。如果你遇到相关问题，你需要自己承担责任。"
