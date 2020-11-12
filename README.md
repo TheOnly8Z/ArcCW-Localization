@@ -5,7 +5,11 @@ Multi language strings for ArcCW and various content packs
 
 We recommend submitting translations of non-official packs to the respective addon authors instead of here.
 
-### Base Pack
+### Base Pack (Menu)
+
+- **Simplified Chinese**: 8Z
+
+### Base Pack (Content)
 
 - **Simplified Chinese**: 8Z
 - **Spanish**: rzen1th
@@ -15,15 +19,20 @@ We recommend submitting translations of non-official packs to the respective add
 
 - **Simplified Chinese**: 8Z
 
+### GSO
+
+N/A
+
 ## How to Contribute
 
 - Fork this repository using the top right button
-- Create a new localization file. It must be in the form of `localization_LANGUAGECODE.lua`, where `LANGUAGECODE` is what `gmod_language` is set to for that language (like `en`, `zh-cn`) in **lowercase**.
-- Add to the new file. You need a global table L, and within it the entries. For example: `L["stat.stat"] = "属性"`.
-- Add your new language and name to the above list
+- Create a new localization file. It must be in the form of `TYPE_LANGUAGECODE.lua`, where `TYPE` is either `base`, `csp` or `gso`, and `LANGUAGECODE` is what `gmod_language` is set to for that language (like `en`, `zh-cn`) in **lowercase**.
+- Add to the new file. You need a global table L (define it with `L = {}`), and within it the entries. For example: `L["stat.stat"] = "属性"`.
+- If you wish to translate the menu, the file must be `arccw/client/cl_languages/LANGUAGECODE.lua`, using the same format.
+- Add your new language and name to the above list.
 - Submit a pull request
 
-The original English tables are here [(for Base pack)](https://github.com/HaodongMo/ArcCW/blob/master/lua/arccw/shared/languages/base_en.lua) and here [(for CS+)](https://github.com/HaodongMo/ArcCW-CS-/blob/master/lua/arccw/shared/languages/csp_en.lua).
+The original English tables are here [(for Base pack)](https://github.com/HaodongMo/ArcCW/blob/master/lua/arccw/shared/languages/base_en.lua) and here [(for CS+)](https://github.com/HaodongMo/ArcCW-CS-/blob/master/lua/arccw/shared/languages/csp_en.lua). The menu file is [(here)](https://github.com/HaodongMo/ArcCW-CS-/blob/master/lua/arccw/client/cl_languages/en.lua).
 
 These tables do not contain the names and descriptions of weapons and attachments. To translate those, add lang strings in the form of `name.class_name` and `desc.class_name`. Refer to existing translation for details.
 
