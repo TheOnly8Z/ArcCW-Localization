@@ -113,6 +113,7 @@ L["autostat.bipodrecoil"] = "两脚架后座力"
 L["autostat.bipoddisp"] = "两脚架扩散"
 L["autostat.damage"] = "近距离伤害"
 L["autostat.damagemin"] = "远距离伤害"
+L["autostat.damageboth"] = "伤害"
 L["autostat.range"] = "射程"
 L["autostat.penetration"] = "穿透力"
 L["autostat.muzzlevel"] = "出膛速度"
@@ -187,12 +188,13 @@ L["ttt.attachments"] = "个配件：" -- Used in TTT2 TargetID
 L["ttt.ammo"] = "弹药：" -- Used in TTT2 TargetID
 
 -- Shit that used to be in CS+ why
-L["info.togglesight"] = "Double press +USE to toggle sights"
-L["info.toggleubgl"] = "Double press +ZOOM to toggle underbarrel"
-L["pro.ubgl"] = "Selectable underbarrel launcher"
-L["pro.ubsg"] = "Selectable underbarrel shotgun"
-L["con.obstruction"] = "May obstruct sights"
-L["autostat.underwater"] = "Shoot underwater"
+L["info.togglesight"] = "双击 +USE 切换瞄具"
+L["info.toggleubgl"] = "双击 +ZOOM 切换下挂装备"
+L["pro.ubgl"] = "可使用下挂榴弹发射器"
+L["pro.ubsg"] = "可使用下挂霰弹枪"
+L["con.obstruction"] = "可能会阻挡瞄具"
+L["autostat.underwater"] = "水下开火"
+L["autostat.sprintshoot"] = "疾跑开火"
 
 -- Incompatibility Menu
 L["incompatible.title"] = "ArcCW: INCOMPATIBLE ADDONS"
