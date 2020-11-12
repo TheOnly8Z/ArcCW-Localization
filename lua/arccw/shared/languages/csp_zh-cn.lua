@@ -38,6 +38,7 @@ L["con.perk_last"] = "只有一颗子弹"
 L["pro.perk_owyn"] = "最后一颗子弹造成额外伤害"
 L["info.perk_owyn"] = "弹夹容量60发时额外伤害达到上限"
 L["con.fov"] = "- 视野"
+L["pro.perk_refund"] = "命中有几率返还子弹"
 
 L["csp.title"] = "ArcCW: 未加载 CS:S"
 L["csp.line1"] = "你没有加载反恐精英：起源，但 CS+ 包需要此内容。"
