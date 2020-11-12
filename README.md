@@ -32,7 +32,7 @@ N/A
 - Add your new language and name to the above list.
 - Submit a pull request
 
-The original English tables are here [(for Base pack)](https://github.com/HaodongMo/ArcCW/blob/master/lua/arccw/shared/languages/base_en.lua) and here [(for CS+)](https://github.com/HaodongMo/ArcCW-CS-/blob/master/lua/arccw/shared/languages/csp_en.lua). The menu file is [(here)](https://github.com/HaodongMo/ArcCW-CS-/blob/master/lua/arccw/client/cl_languages/en.lua).
+The original English tables are here [(for Base pack)](https://github.com/HaodongMo/ArcCW/blob/master/lua/arccw/shared/languages/base_en.lua) and here [(for CS+)](https://github.com/HaodongMo/ArcCW-CS-/blob/master/lua/arccw/shared/languages/csp_en.lua). The menu file is [(here)](https://github.com/HaodongMo/ArcCW/blob/master/lua/arccw/client/cl_languages/en.lua).
 
 These tables do not contain the names and descriptions of weapons and attachments. To translate those, add lang strings in the form of `name.class_name` and `desc.class_name`. Refer to existing translation for details.
 
