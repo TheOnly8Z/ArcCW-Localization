@@ -1,10 +1,11 @@
 L = {}
 
+-- Generic
 L["arccw.adminonly"]                      = "이 옵션들을 변경하려면 관리자 권한이 필요하며, 멀티플레이 환경에서는 변경 시 서버에 반영됩니다."
 L["arccw.clientcfg"]                      = "이 메뉴의 모든 옵션은 관리자 권한 없이 커스텀할 수 있습니다."
 
 -- Menus
-L["arccw.menus.hud"]                      = "HUD"
+L["arccw.menus.hud"]                      = "허드"
 L["arccw.menus.client"]                   = "사용자"
 L["arccw.menus.vmodel"]                   = "뷰 모델"
 L["arccw.menus.perf"]                     = "성능"
