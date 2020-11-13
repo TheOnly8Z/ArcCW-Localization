@@ -8,7 +8,7 @@ We recommend submitting translations of non-official packs to the respective add
 ### Base Pack (Menu)
 
 - **Simplified Chinese**: 8Z
-- **Korean**: Negative
+- **Korean**: [Tensa](https://github.com/10sa)
 
 ### Base Pack (Content)
 
