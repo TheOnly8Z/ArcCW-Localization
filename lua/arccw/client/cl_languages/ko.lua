@@ -152,6 +152,7 @@ L["arccw.cvar.mult_reloadtime"]           = "재장전 시간"
 L["arccw.cvar.mult_sighttime"]            = "정조준 시간"
 L["arccw.cvar.mult_defaultclip"]          = "기본 탄약"
 L["arccw.cvar.mult_attchance"]            = "랜덤 부착물 확률"
+L["arccw.cvar.mult_heat"]                 = "총열 과열"
 
 -- ArcCW_Options_Atts
 L["arccw.attdesc1"]                       = "ArcCW는 ACT3와 비슷한 부착물 인벤토리를, CW2와 비슷한 부착물 잠금 시스템을, TFA와 비슷한 제한없이 부착물을 제공합니다."
@@ -197,6 +198,8 @@ L["arccw.cvar.dev_registerentities"]      = "부착물 엔티티 등록"
 L["arccw.cvar.dev_registerentities.desc"] = "기본 값 : 활성화\nArcCW 부착물의 엔티티를 생성합니다. 부착물 데이터 리로드 시간이 증가합니다."
 L["arccw.cvar.dev_reloadatts"]            = "부착물 데이터 리로드"
 L["arccw.cvar.dev_reloadatts.desc"]       = "부착물 데이터를 리로드합니다. 부착물 수정 후 사용하세요."
+L["arccw.cvar.dev_reloadlangs"]           = "언어 리로드"
+L["arccw.cvar.dev_reloadlangs.desc"]      = "모든 언어 파일을 리로드합니다."
 
 -- TTT Menus
 L["arccw.cvar.attinv_loseondie.help"]     = "활성화된 경우 사망 또는 라운드 종료 시 모든 부착물을 제거합니다."
@@ -204,10 +207,6 @@ L["arccw.cvar.ammo_detonationmode.help"]  = "탄약 상자 파괴 시 폭발할�
 L["arccw.cvar.equipmenttime.help"]        = "크레모아 같은 전개 가능한 장비에 적용됩니다."
 L["arccw.cvar.ttt_bodyattinfo"]           = "시체 공격 부착물 정보"
 L["arccw.cvar.ttt_bodyattinfo.help"]      = "활성화 시 시체 수색이 어떠한 부착물을 장비한 무기에 의해 사망하였는지 표시합니다."
-L["arccw.cvar.ttt_bodyattinfo.desc"]      = "0 - 끄기; 1 - 탐정만 볼 수 있음; 2 - 모두가 볼 수 있음"
-L["arccw.cvar.attinv_free.help"]          = "활성화 시 모든 부착물을 사용할 수 있습니다. 커스터마이징 모드에 따라 제한될 수 있습니다."
-L["arccw.cvar.attinv_lockmode.help"]      = "활성화 시 습득한 부착물이 모든 무기에서 해금됩니다."
-L["arccw.cvar.ttt_weakensounds"]          = "낮은 발포음"
 L["arccw.cvar.ttt_weakensounds.help"]     = "모든 무기의 발포음을 20 데시벨로 감소시킵니다."
 L["arccw.cvar.enable_customization.help"] = "비활성화 시 커스터마이징을 제한합니다. 이 설정은 커스터마이징 모드 설정을 무시합니다."
 L["arccw.cvar.ttt_replace"]               = "자동 무기 대체"
