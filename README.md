@@ -9,16 +9,19 @@ We recommend submitting translations of non-official packs to the respective add
 
 - **Simplified Chinese**: 8Z
 - **Korean**: [Tensa](https://github.com/10sa)
+- **Russian**: [Blueberryy](https://github.com/Blueberryy)
 
 ### Base Pack (Content)
 
 - **Simplified Chinese**: 8Z
 - **Spanish**: rzen1th
 - **English - Pirate**: Fesiug
+- **Russian**: [Blueberryy](https://github.com/Blueberryy)
 
 ### CS+
 
 - **Simplified Chinese**: 8Z
+- **Russian**: [Blueberryy](https://github.com/Blueberryy)
 
 ### GSO
 
