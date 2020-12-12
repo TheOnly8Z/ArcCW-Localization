@@ -61,7 +61,7 @@ L["class.sniperrifle"] = "Снайперская винтовка"
 L["class.antimaterielrifle"] = "Крупнокалиберная снайперская винтовка"
 L["class.rocketlauncher"] = "Ракетомёт"
 L["class.grenade"] = "Ручная граната"
-L["class.melee"] = "Оружие ближнего боя"
+L["class.melee"] = "Холодное оружие"
 
 -- UI
 L["ui.savepreset"] = "Сохранить набор"
@@ -226,6 +226,28 @@ L["fcg.semi"] = "ПОЛУ"
 L["fcg.auto"] = "АВТО"
 L["fcg.burst"] = "%dВСТ"
 L["fcg.ubgl"] = "ПДСТ"
+
+-- 2020-12-12
+L["stat.precision.moa"] = " УМ"
+L["stat.0m"] = "0м"
+L["stat.m"] = "м"
+L["stat.ma"] = "мс"
+L["stat.db"] = "дБ"
+L["stat.in"] = "мм"
+L["stat.mm"] = "мм"
+L["stat.lbfps"] = " фт"
+L["stat.dmg"] = "УРН"
+L["stat.rpm"] = "ВСТ"
+L["label.cancel"] = "Отмена"
+L["label.save"] = "Сохранить"
+L["save_preset.help"] = "Наборы не найдены! Сделай немного!"
+L["label.blacklist_title"] = "Чёрный список ArcCW"
+L["label.blacklist_help"] = "Части оружия, отмеченные здесь, перестанут отображаться вообще."
+L["label.blacklist_filter"] = "ФИЛЬТР"
+L["label.blacklist_blacklisted"] = "В ЧЁРНОМ СПИСКЕ"
+L["label.blacklist_all"] = "ВСЕ"
+L["label.blacklist_name"] = "НАЗВАНИЕ"
+L["label.blacklist_not_saved"] = " [не сохранено]"
 
 -- You can translate the trivia of any arbitrary weapon or attachment by adding the phrase ["desc.class_name"]
 -- Similarly, you can translate attachment and weapon names with ["name.class_name"]
