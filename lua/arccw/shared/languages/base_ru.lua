@@ -228,8 +228,7 @@ L["fcg.burst"] = "%dВСТ"
 L["fcg.ubgl"] = "ПДСТ"
 
 -- 2020-12-12
-L["stat.precision.moa"] = " УМ"
-L["stat.0m"] = "0м"
+L["stat.moa"] = " УМ"
 L["stat.m"] = "м"
 L["stat.ma"] = "мс"
 L["stat.db"] = "дБ"
