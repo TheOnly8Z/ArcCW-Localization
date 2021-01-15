@@ -21,7 +21,7 @@ L["arccw.menus.bullet"]                   = "Физика пуль"
 -- ArcCW_Options_Ammo
 L["arccw.cvar.ammo_detonationmode"]       = "Режим разрывных боеприпасов"
 L["arccw.cvar.ammo_detonationmode.desc"]  = "-1 - не взрывать\n 0 - простые взрывы\n 1 - фрагментация\n 2 - фраг + сжигание"
-L["arccw.cvar.ammo_autopickup"]           = "Автовыбор"
+L["arccw.cvar.ammo_autopickup"]           = "Автоподбор"
 L["arccw.cvar.ammo_largetrigger"]         = "Большой спусковой крючок"
 L["arccw.cvar.ammo_rareskin"]             = "Редкий шанс раскраски"
 L["arccw.cvar.ammo_chaindet"]             = "Цепная детонация"
