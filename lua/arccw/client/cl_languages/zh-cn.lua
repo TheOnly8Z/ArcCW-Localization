@@ -207,3 +207,76 @@ L["arccw.cvar.ttt_customizemode"]         = "配件自定义模式"
 L["arccw.cvar.ttt_customizemode.desc"]    = "0 - 无限制; 1 - 限制; 2 - 回合开始前; 3 - 叛徒/侦探可用"
 L["arccw.cvar.ttt_rolecrosshair"]         = "启用身份对应准星颜色"
 L["arccw.cvar.ttt_inforoundstart"]        = "启用回合开始信息框"
+
+-- 2020-11-22
+L["arccw.cvar.ammo_replace"]              = "替换弹药实体"
+
+-- 2020-11-25
+L["arccw.cvar.hud_3dfun_lite"]            = "轻量3D2D弹药界面"
+L["arccw.cvar.hud_3dfun_lite.desc"]       = "按装填键才会显示弹药量。"
+L["arccw.cvar.hud_3dfun_right"]           = "3D2D 右位移"
+L["arccw.cvar.hud_3dfun_forward"]         = "3D2D 前位移"
+L["arccw.cvar.hud_3dfun_up"]              = "3D2D 上位移"
+L["arccw.cvar.hud_3dfun_ammotype"]        = "3D2D 弹药"
+L["arccw.cvar.hud_3dfun_ammotype.desc"]   = "3D2D 弹药界面也会显示弹药类型。"
+
+-- 2021-01-03
+L["arccw.combobox.disabled"]              = "0 - 禁用"
+L["arccw.cvar.attinv_loseondie.1"]        = "1 - 死亡丢失"
+L["arccw.cvar.attinv_loseondie.2"]        = "2 - 死亡丢弃配件盒"
+L["arccw.cvar.ammo_detonationmode.-1"]    = "-1 - 不爆炸"
+L["arccw.cvar.ammo_detonationmode.0"]     = "0 - 简单爆炸"
+L["arccw.cvar.ammo_detonationmode.1"]     = "1 - 破片爆炸"
+L["arccw.cvar.ammo_detonationmode.2"]     = "2 - 破片+燃烧"
+L["arccw.cvar.enable_customization.-1"]   = "-1 - 禁用UI以及一切自定义内容"
+L["arccw.cvar.enable_customization.0"]    = "0 - 玩家不可自定义"
+L["arccw.cvar.enable_customization.1"]    = "1 - 启用"
+L["arccw.cvar.limityear.desc"]            = "启用后，年份晚于这个设置的武器不能被刷出。"
+
+-- 2021-01-05
+L["arccw.menus.binds"]                    = "绑定"
+L["arccw.bindhelp"]                       = "所有玩家都可以用这个菜单绑定 ArcCW 专用键位。\n\n因为 GMod 的限制，你必须在控制台输入提供的命令才能生效。"
+L["arccw.cvar.altbindsonly"]              = "只用自定义绑定"
+L["arccw.cvar.altbindsonly.desc"]         = "启用后，默认键位不再对 ArcCW 武器起效。请确保以下键位都被绑定。"
+L["arccw.bind.firemode"]                  = "切换开火模式"
+L["arccw.bind.zoom_in"]                   = "准镜放大"
+L["arccw.bind.zoom_out"]                  = "准镜缩小"
+L["arccw.bind.toggle_inv"]                = "自定义菜单"
+L["arccw.bind.switch_scope"]              = "切换准镜"
+L["arccw.bind.toggle_ubgl"]               = "切换下挂"
+L["arccw.bind.melee"]                     = "快速近战"
+L["arccw.bind.msg"]                       = "控制台输入: "
+
+-- 2021-01-14
+L["arccw.cvar.mult_startunloaded"]        = "初始不带弹药"
+L["arccw.cvar.mult_defaultammo"]          = "默认弹药量"
+
+-- 2021-01-18
+L["arccw.cvar.dev_showignored"]           = "加载隐藏配件"
+L["arccw.cvar.dev_showignored.desc"]      = "默认禁用。\n加载设置 att.Ignore 了的配件。这些配件不一定可用。"
+L["arccw.cvar.aimassist"]                 = "启用瞄准辅助"
+L["arccw.cvar.aimassist.desc"]            = "允许玩家启用辅助，让准星自动移到附件玩家和 NPC 身上。"
+L["arccw.cvar.aimassist_cl.desc"]         = "让准星自动移到附件玩家和 NPC 身上。服务器端启用才可使用！"
+L["arccw.cvar.aimassist_head"]            = "瞄准辅助锁头"
+L["arccw.cvar.aimassist_cone"]            = "瞄准辅助角度"
+L["arccw.cvar.aimassist_distance"]        = "瞄准辅助距离"
+L["arccw.cvar.aimassist_intensity"]       = "瞄准辅助强度"
+
+-- 2021-01-19
+L["arccw.cvar.adjustsensthreshold"]       = "调整敏感度阈值"
+L["arccw.cvar.adjustsensthreshold.desc"]  = "总放大倍率低于这个值时，你的鼠标敏感度不会被调整。"
+
+-- 2021-01-20
+L["arccw.cvar.crosshair_aa"]              = "瞄准辅助指示"
+
+-- 2021-1-25
+L["arccw.menus.ttt_client"]               = "TTT (客户端)"
+L["arccw.menus.ttt_server"]               = "TTT (服务端)"
+L["arccw.ttt_clienthelp"]                 = "以下选项为 TTT 专用，所有玩家都可以修改。其他菜单会有非 TTT 专用的设置。"
+L["arccw.ttt_serverhelp"]                 = "以下选项为 TTT 专用，需要管理员权限修改，多人游戏时会自动发送到服务器。"
+L["arccw.cvar.ttt_customizemode.0"]       = "0 - 无限制"
+L["arccw.cvar.ttt_customizemode.1"]       = "1 - 受限"
+L["arccw.cvar.ttt_customizemode.2"]       = "2 - 游戏开始前"
+L["arccw.cvar.ttt_customizemode.3"]       = "3 - 叛徒/侦探"
+L["arccw.cvar.ttt_bodyattinfo.1"]         = "1 - 侦探可以看见"
+L["arccw.cvar.ttt_bodyattinfo.2"]         = "2 - 所有人可以看见"

@@ -206,3 +206,16 @@ L["incompatible.wait"] = "等待 {time}秒"
 L["incompatible.never"] = "不再显示"
 L["incompatible.never.hover"] = "你彻底明白这些插件的作用吗？"
 L["incompatible.never.confirm"] = "你选择了再也不显示这个警告。如果你遇到相关问题，你需要自己承担责任。"
+
+-- 2020-12-11
+L["hud.hp"] = "HP: " -- Used in default HUD
+L["fcg.safe"] = "保险"
+L["fcg.semi"] = "半自动"
+L["fcg.auto"] = "全自动"
+L["fcg.burst"] = "%d连发"
+L["fcg.ubgl"] = "下挂"
+
+-- 2021-01-14
+L["ui.toggle"] = "切换"
+L["ui.whenmode"] = "为 %s 时"
+L["ui.modex"] = "模式 %s"
