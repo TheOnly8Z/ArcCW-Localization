@@ -1,0 +1,19 @@
+{
+	"title" :	"[ArcCW] Localization",
+	"type"  :	"weapon",
+	"tags"  :	[],
+	"ignore":
+	[
+		"*.cmd",
+		"*.ini",
+		"*.lnk",
+		"*.url",
+		"*.psd",
+		"_workfolder/*",
+		".gitignore",
+		"README.md",
+		".git/*",
+		"arccw localization.jpg",
+		"arccw localization.png"
+	]
+}
