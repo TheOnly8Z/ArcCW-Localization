@@ -1,3 +1,7 @@
+## Languages
+ - [Русский](https://github.com/TheOnly8Z/ArcCW-Localization/blob/master/README_RU.md)
+
+
 # ArcCW Localization
 Multi language strings for ArcCW and various content packs
 
