@@ -27,6 +27,8 @@ L["attslot.grip.default"] = "Стандартная рукоять"
 L["attslot.stock.default"] = "Стандартный приклад"
 L["attslot.stock.none"] = "Нет приклада"
 L["attslot.fcg.default"] = "Стандартный тип стрельбы"
+L["attslot.slide"] = "Ствол"
+L["attslot.magazine"] = "Магазин"
 
 -- Trivia
 L["trivia.class"] = "Класс"
