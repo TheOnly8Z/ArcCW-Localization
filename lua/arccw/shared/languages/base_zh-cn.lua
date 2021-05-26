@@ -222,3 +222,53 @@ L["ui.modex"] = "模式 %s"
 
 -- 2021-01-25
 L["attslot.magazine"] = "弹夹"
+
+-- 2021-03-13
+L["trivia.damage"] = "伤害"
+L["trivia.range"] = "射程"
+L["trivia.attackspersecond"] = "每秒攻击次数"
+L["trivia.description"] = "介绍"
+L["trivia.meleedamagetype"] = "伤害类型"
+
+-- Units
+L["unit.rpm"] = "RPM"
+L["unit.moa"] = "MOA"
+L["unit.mm"] = "mm"
+L["unit.db"] = "dB"
+L["unit.bce"] = "BC"
+L["unit.aps"] = "APS"
+
+-- melee damage types
+L["dmg.generic"] = "Unarmed"
+L["dmg.bullet"] = "Piercing"
+L["dmg.slash"] = "Slashing"
+L["dmg.club"] = "Blunt"
+L["dmg.shock"] = "Shock"
+
+L["ui.presets"] = "预设"
+L["ui.customize"] = "自定义"
+L["ui.inventory"] = "配件背包"
+
+-- 2021-05-05
+L["ui.gamemode_buttons"] = "模式专用按钮"
+L["ui.gamemode_usehint"] = "按住E可以使用原本的按键功能。"
+L["ui.darkrpdrop"] = "丢出武器"
+L["ui.noatts"] = "你没有配件"
+L["ui.noatts_slot"] = "你没有这个槽位的配件"
+L["ui.lockinv"] = "这些配件可以用在所有武器上。"
+L["autostat.ammotype"] = "弹药类型变成 %s"
+
+-- 2021-05-08
+L["autostat.rangemin"] = "最低射程"
+
+-- 2021-05-13
+L["autostat.malfunctionmean"] = "可靠度"
+L["ui.heat"] = "HEAT"
+L["ui.jammed"] = "JAMMED"
+
+-- 2021-05-15
+
+L["trivia.muzzlevel"] = "出膛初速"
+L["unit.mps"] = "m/s"
+L["unit.lbfps"] = "lb-fps"
+L["trivia.recoilside"] = "水平后坐力"

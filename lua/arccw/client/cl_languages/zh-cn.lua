@@ -280,3 +280,26 @@ L["arccw.cvar.ttt_customizemode.2"]       = "2 - 游戏开始前"
 L["arccw.cvar.ttt_customizemode.3"]       = "3 - 叛徒/侦探"
 L["arccw.cvar.ttt_bodyattinfo.1"]         = "1 - 侦探可以看见"
 L["arccw.cvar.ttt_bodyattinfo.2"]         = "2 - 所有人可以看见"
+
+-- 2021-2-19
+L["arccw.cvar.dev_debug"]                 = "Debug Menu"
+L["arccw.cvar.dev_debug.desc"]            = "Disabled by default.\nDraws a debug menu over your screen where you can view certain elements blah blah?"
+
+L["arccw.cvar.attinv_sound"]              = "Menu Toggle Sound"
+L["arccw.cvar.attinv_sound.desc"]         = "Sounds for opening and closing the customization menu.\nIf it's really not your thing."
+
+-- 2021-3-2
+L["arccw.ammohud"]                        = "\n弹药 HUD" -- Obsoletes "3D2D HUD" since they're basically the same now"
+L["arccw.cvar.hud_fcgbars"]               = "显示火控槽"
+L["arccw.bind.toggle_att"]                = "调整配件"
+
+-- 2021-05-05
+L["arccw.cvar.attinv_gamemodebuttons"]    = "模式专用按钮"
+L["arccw.cvar.attinv_gamemodebuttons.desc"] = "显示 TTT 和 DarkRP 等模式的专用按钮。\n你也可以按住E来使用原本的按键。"
+
+-- 2021-05-13
+L["arccw.cvar.mult_malfunction"] = "Malfunction Chance"
+L["arccw.cvar.malfunction"]    = "Malfunction Mode"
+L["arccw.cvar.malfunction.0"]   = "0 - Force disable on all guns"
+L["arccw.cvar.malfunction.1"]    = "1 - Enabled"
+L["arccw.cvar.malfunction.2"]    = "2 - Force enable on all guns"
