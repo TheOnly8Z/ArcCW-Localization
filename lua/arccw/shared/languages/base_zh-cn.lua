@@ -1,5 +1,7 @@
 L = {}
 
+L["default_font"] = "Microsoft Yahei"
+
 L["attslot.optic"] = "准镜"
 L["attslot.bkoptic"] = "备用准镜"
 L["attslot.muzzle"] = "枪口"
