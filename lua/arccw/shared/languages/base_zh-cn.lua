@@ -265,14 +265,17 @@ L["autostat.rangemin"] = "最低射程"
 
 -- 2021-05-13
 L["autostat.malfunctionmean"] = "可靠度"
-L["ui.heat"] = "HEAT"
-L["ui.jammed"] = "JAMMED"
+L["ui.heat"] = "过热"
+L["ui.jammed"] = "卡弹"
 
 -- 2021-05-15
 L["trivia.muzzlevel"] = "出膛初速"
 L["unit.mps"] = "m/s"
 L["unit.lbfps"] = "lb-fps"
 L["trivia.recoilside"] = "水平后坐力"
+
+--2021-05-27
+L["ui.pickx"] = "配件限制: %d/%d"
 
 L["fcg.sngl"] = "单发"
 L["fcg.bolt"] = "栓动"
