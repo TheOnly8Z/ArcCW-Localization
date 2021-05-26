@@ -269,8 +269,14 @@ L["ui.heat"] = "HEAT"
 L["ui.jammed"] = "JAMMED"
 
 -- 2021-05-15
-
 L["trivia.muzzlevel"] = "出膛初速"
 L["unit.mps"] = "m/s"
 L["unit.lbfps"] = "lb-fps"
 L["trivia.recoilside"] = "水平后坐力"
+
+L["fcg.sngl"] = "单发"
+L["fcg.bolt"] = "栓动"
+L["fcg.pump"] = "泵动"
+L["fcg.both"] = "双管"
+L["fcg.sact"] = "单动"
+L["fcg.dact"] = "双动"
