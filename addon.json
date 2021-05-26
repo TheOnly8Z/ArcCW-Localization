@@ -9,9 +9,9 @@
 		"*.lnk",
 		"*.url",
 		"*.psd",
+		"*.md",
 		"_workfolder/*",
 		".gitignore",
-		"README.md",
 		".git/*",
 		"arccw localization.jpg",
 		"arccw localization.png"
