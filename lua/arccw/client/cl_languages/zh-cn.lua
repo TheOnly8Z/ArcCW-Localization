@@ -138,7 +138,7 @@ L["arccw.cvar.mult_damage"]               = "伤害"
 L["arccw.cvar.mult_npcdamage"]            = "NPC 伤害"
 L["arccw.cvar.mult_range"]                = "射程"
 L["arccw.cvar.mult_recoil"]               = "后座力"
-L["arccw.cvar.mult_hipfire"]              = "扫射扩散"
+L["arccw.cvar.mult_hipfire"]              = "腰射扩散"
 L["arccw.cvar.mult_movedisp"]             = "移动扩散"
 L["arccw.cvar.mult_reloadtime"]           = "装填耗时"
 L["arccw.cvar.mult_sighttime"]            = "瞄准耗时"
@@ -303,3 +303,12 @@ L["arccw.cvar.malfunction"]    = "Malfunction Mode"
 L["arccw.cvar.malfunction.0"]   = "0 - Force disable on all guns"
 L["arccw.cvar.malfunction.1"]    = "1 - Enabled"
 L["arccw.cvar.malfunction.2"]    = "2 - Force enable on all guns"
+
+-- 2021-05-26
+L["arccw.cvar.mult_meleedamage"] = "近战伤害"
+L["arccw.cvar.mult_meleetime"] = "近战耗时"
+
+
+-- 2021-05-27
+L["arccw.cvar.ammonames"] = "自定义弹药名称"
+L["arccw.cvar.ammonames.desc"] = "以 ArcCW 的弹药名替换默认弹药名称。"
