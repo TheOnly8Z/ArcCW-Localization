@@ -18,7 +18,7 @@ We recommend submitting translations of non-official packs to the respective add
 ### Base Pack (Content)
 
 - **Simplified Chinese**: 8Z
-- **Spanish**: rzen1th
+- **Spanish**: rzen1th, [thejaviertc](https://github.com/thejaviertc)
 - **English - Pirate**: Fesiug
 - **Russian**: [Blueberryy](https://github.com/Blueberryy)
 
