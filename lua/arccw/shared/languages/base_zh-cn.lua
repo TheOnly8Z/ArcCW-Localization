@@ -278,6 +278,10 @@ L["trivia.recoilside"] = "水平后坐力"
 L["ui.pickx"] = "配件限制: %d/%d"
 L["ui.ballistics"] = "弹道"
 
+--2021-06-30
+L["autostat.bipod2"] = "可用两脚架 (-%d%% 扩散，-%d%% 后坐力)"
+L["autostat.nobipod"] = "禁用两脚架"
+
 L["ammo.pistol"] = "手枪弹药"
 L["ammo.357"] = "马格南弹药"
 L["ammo.smg1"] = "中型弹药"
