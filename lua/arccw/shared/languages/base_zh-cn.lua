@@ -278,6 +278,14 @@ L["trivia.recoilside"] = "水平后坐力"
 L["ui.pickx"] = "配件限制: %d/%d"
 L["ui.ballistics"] = "弹道"
 
+--2021-05-31
+L["ui.nodata"] = "无数据"
+L["ui.createpreset"] = "创建"
+L["ui.deletepreset"] = "删除"
+
+--2021-06-09 nice
+L["autostat.clipsize"] = "%d 发弹夹容量"
+
 --2021-06-30
 L["autostat.bipod2"] = "可用两脚架 (-%d%% 扩散，-%d%% 后坐力)"
 L["autostat.nobipod"] = "禁用两脚架"
