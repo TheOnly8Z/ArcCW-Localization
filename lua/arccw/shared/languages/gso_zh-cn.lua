@@ -3,6 +3,7 @@ STL = {}
 
 STL["buckshot shells"] = "attslot.ammo.buckshot"
 STL["standard ammo"] = "attslot.ammo.default"
+STL["standard magazine"] = "attslot.magazine.default"
 STL["standard foregrip"] = "attslot.underbarrel.foregrip"
 STL["slide"] = "attslot.slide"
 
@@ -10,6 +11,7 @@ L["attslot.ammo.default"] = "默认弹药"
 L["attslot.ammo.buckshot"] = "默认鹿弹"
 L["attslot.underbarrel.foregrip"] = "标准握把"
 L["attslot.slide"] = "上身"
+L["attslot.magazine.default"] = "默认弹夹"
 
 L["pro.diver"] = "水下射击"
 L["pro.quickdraw"] = "增加切换武器速度"
