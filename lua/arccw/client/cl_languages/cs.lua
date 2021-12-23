@@ -196,19 +196,19 @@ L["arccw.cvar.weakensounds.desc"]         = "Ztiší hlasitost výstřelů všec
 L["arccw.dev_info1"]                      = "Tato nastavení se týkají především příslušenství a jsou užitečné pouze pro vývojáře."
 L["arccw.dev_info2"]                      = "Změny provedené zde se NEBUDOU ukládat."
 L["arccw.cvar.dev_reloadonadmincleanup"]  = "Znovunačíst při vyčíštění"
-L["arccw.cvar.dev_reloadonadmincleanup.desc"]    = "Disabled by default.\nDoing an admin cleanup will reload all attachment data."
+L["arccw.cvar.dev_reloadonadmincleanup.desc"]    = "Zakázáno ve výchozím nastavení.\nPokud povoleno vyčištění serveru znovu načte data příslušenství."
 L["arccw.cvar.dev_registerentities"]      = "Registrovat objekty příslušenství"
 L["arccw.cvar.dev_registerentities.desc"] = "Ve výchozím nastavení povoleno.\nVytváří objekty pro ArcCW příslušenství. Zvyšuje načítací dobu pro data příslušenství."
 L["arccw.cvar.dev_reloadatts"]            = "Znovunačíst data příslušenství"
-L["arccw.cvar.dev_reloadatts.desc"]       = "Znovunačte attachment data. Use after making a change to an attachment."
+L["arccw.cvar.dev_reloadatts.desc"]       = "Znovunačte attachment data. Použíte po změně dat příslušenství."
 L["arccw.cvar.dev_reloadlangs"]           = "Znovu načíst jazyky"
-L["arccw.cvar.dev_reloadlangs.desc"]      = "Znovunačte all language files."
+L["arccw.cvar.dev_reloadlangs.desc"]      = "Znovunačte všechny lokalizační soubory."
 L["arccw.cvar.dev_spawnmenureload"]       = "Znovu načíst spawn menu"
 L["arccw.cvar.dev_spawnmenureload.desc"]  = "Né zrovna ArcCW příkaz ale je zde pro usnadnění :)"
 -- TTT Menus
 L["arccw.cvar.attinv_loseondie.help"]     = "Pokud povoleno, hráči příjdou o příslušenství když zemřou nebo na konci kola."
 L["arccw.cvar.ammo_detonationmode.help"]  = "Úrčuje co se stane když jsou boxy s municí zničeny."
-L["arccw.cvar.equipmenttime.help"]        = "Vztahuje se na nasaditelné vybavení, jako je Claymores, v sekundách."
+L["arccw.cvar.equipmenttime.help"]        = "Vztahuje se na nasaditelné vybavení, jako je Claymore, v sekundách."
 L["arccw.cvar.ttt_bodyattinfo"]           = "Body Attachment Info"
 L["arccw.cvar.ttt_bodyattinfo.help"]      = "Pokud povoleno, prohledání těla odhalí příslušenství které bylo použito na použité zbrani."
 L["arccw.cvar.ttt_bodyattinfo.desc"]      = "0 - Vypnuto; 1 - Pouze pro detektivy; 2 - Zapnuto pro všechny."
@@ -268,10 +268,10 @@ L["arccw.cvar.mult_defaultammo"]          = "Výchozí munice"
 
 -- 2021-01-18
 L["arccw.cvar.dev_showignored"]           = "Načíst Ignorované příslušenství"
-L["arccw.cvar.dev_showignored.desc"]      = "Ve výchozím nastavení zakázáno.\nPokud povoleno ArcCW se pokusí načíst příslušenství která mají att.Ignore nastavená na true. Toto příslušenství může být rozbité nebo nemusí být implementované."
+L["arccw.cvar.dev_showignored.desc"]      = "Zakázánmo ve výchozím nastavení.\nPokud povoleno ArcCW se pokusí načíst příslušenství která mají att.Ignore nastavená na true. Toto příslušenství může být rozbité nebo nemusí být implementované."
 L["arccw.cvar.aimassist"]                 = "Povolit asistenci při míření"
-L["arccw.cvar.aimassist.desc"]            = "Allow players to snap their view to NPCs and players near their aim."
-L["arccw.cvar.aimassist_cl.desc"]         = "Snap your view to nearby NPCs and players. Only usable if enabled serverside!"
+L["arccw.cvar.aimassist.desc"]            = "Umožňuje hráčům uzamknout jejich pohled na NPC a hráče poblíž jejich zaměřovacího kříže."
+L["arccw.cvar.aimassist_cl.desc"]         = "Uzamkne váš pohled na NPC a hráče poblíž zaměřovacího kříže. Použitelné pouze pokud je toto nastavení povoleno na serveru!"
 L["arccw.cvar.aimassist_head"]            = "Assistent bude zaměřovat hlavu"
 L["arccw.cvar.aimassist_cone"]            = "Zorné pole assistenta"
 L["arccw.cvar.aimassist_distance"]        = "Dohled assistenta"
@@ -300,7 +300,7 @@ L["arccw.cvar.mult_crouchrecoil"]         = "Zpětný ráz v přikrčení"
 
 -- 2021-2-19
 L["arccw.cvar.dev_debug"]                 = "Menu ladění"
-L["arccw.cvar.dev_debug.desc"]            = "Disabled by default.\nDraws a debug menu over your screen where you can view certain elements blah blah?"
+L["arccw.cvar.dev_debug.desc"]            = "Zakázánmo ve výchozím nastavení.\nVykreslí ladící menu na obrazovce kde si můžete prohlédnout úrčité elementy apd."
 
 L["arccw.cvar.attinv_sound"]              = "Zvuk přepnutí překrytí"
 L["arccw.cvar.attinv_sound.desc"]         = "Zvuky pro otevírání a zavírání překrytí přizpůsobení.\nPokud to není zrovna vaše věc."
@@ -322,8 +322,8 @@ L["arccw.cvar.malfunction.1"]    = "1 - Povoleno"
 L["arccw.cvar.malfunction.2"]    = "2 - Vynutit povolení na všech zbraních"
 
 -- 2021-05-26
-L["arccw.cvar.mult_meleedamage"] = "Melee Damage"
-L["arccw.cvar.mult_meleetime"] = "Melee Time"
+L["arccw.cvar.mult_meleedamage"] = "Násobič poškození při boji z blízka"
+L["arccw.cvar.mult_meleetime"] = "Násobič prodlevy úderu při boji z blízka"
 
 -- 2021-05-27
 L["arccw.cvar.ammonames"] = "Vlastní názvy munice"
@@ -338,10 +338,11 @@ L["arccw.cvar.mult_infiniteammo"] = "Neomezená munice"
 L["arccw.cvar.bodydamagecancel"] = "Cancel Body Damage"
 L["arccw.cvar.bodydamagecancel.desc"] = "When a weapon specifies limb damage modifiers, cancel Gmod's default multipliers. Disable when you have another mod that does this."
 
-L["arccw.cvar.enable_sway"] = "Enable Sway"
-L["arccw.cvar.enable_sway.desc"] = "Most weapons do not specify a sway value. If you wish to give sway to all weapons, use the 'Add Sway' slider."
-L["arccw.cvar.add_sway"] = "Add Sway"
-L["arccw.cvar.mult_sway"]    = "Multiply Sway"
+L["arccw.cvar.enable_sway"] = "Povolit kývání"
+
+L["arccw.cvar.enable_sway.desc"] = "Většina zbraní nespecifikuje hodnotu kývání. Pokud si přejete přidat kývání ke všem zbraním použíte níže uvedený posuvník."
+L["arccw.cvar.add_sway"] = "Přidat kývání"
+L["arccw.cvar.mult_sway"]    = "Násobič kývání"
 
 -- 2021-08-15
 L["arccw.cvar.mult_rpm"] = "Násobič Kadence"
