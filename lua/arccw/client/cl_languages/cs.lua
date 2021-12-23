@@ -336,7 +336,7 @@ L["arccw.cvar.mult_infiniteammo"] = "Neomezená munice"
 
 -- 2021-06-07
 L["arccw.cvar.bodydamagecancel"] = "Cancel Body Damage"
-L["arccw.cvar.bodydamagecancel.desc"] = "When a weapon specifies limb damage modifiers, cancel Gmod's default multipliers. Disable when you have another mod that does this."
+L["arccw.cvar.bodydamagecancel.desc"] = "When a weapon specifies limb damage modifiers, cancel Gmod's default multipliers. Disable when you have another mod that does this." -- CHANGE ME
 
 L["arccw.cvar.enable_sway"] = "Povolit kývání"
 
