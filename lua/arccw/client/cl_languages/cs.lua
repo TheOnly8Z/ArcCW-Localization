@@ -335,8 +335,8 @@ L["arccw.cvar.mult_bottomlessclip"] = "Bezedné zásobníky"
 L["arccw.cvar.mult_infiniteammo"] = "Neomezená munice"
 
 -- 2021-06-07
-L["arccw.cvar.bodydamagecancel"] = "Cancel Body Damage"
-L["arccw.cvar.bodydamagecancel.desc"] = "When a weapon specifies limb damage modifiers, cancel Gmod's default multipliers. Disable when you have another mod that does this." -- CHANGE ME
+L["arccw.cvar.bodydamagecancel"] = "Vyrušit základní škálování poškození"
+L["arccw.cvar.bodydamagecancel.desc"] = "Když zbraň specifikuje modifikátory poškození končetin, toto nastavení vyruší výchozí multiplikátory Garry's Modu. Vypnětě pokud máte jiný mod který toto dělá."
 
 L["arccw.cvar.enable_sway"] = "Povolit kývání"
 

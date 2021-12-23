@@ -1,6 +1,6 @@
 L = {}
 
-L["pro.ignite"] = "Zapalí cíl"
+L["pro.ignite"] = "Při zásahu zapálí cíl"
 L["pro.ammo_blank"] = "Neškodné!"
 L["con.ammo_blank"] = "Neškodné."
 L["pro.ammo_ricochet"] = "Kulky se budou odrážet od zdí"

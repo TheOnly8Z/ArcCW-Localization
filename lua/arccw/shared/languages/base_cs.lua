@@ -148,8 +148,8 @@ L["autostat.reloadtime"] = "Doba přebití"
 L["autostat.drawtime"] = "Doba vytažení"
 L["autostat.sighttime"] = "Doba zamíření"
 L["autostat.cycletime"] = "Čas cyklu"
-L["autostat.magextender"] = "Rozšířená velikost zásobníku"
-L["autostat.magreducer"] = "Zmenšená velikost zásobníku"
+L["autostat.magextender"] = "Rozšířená kapacita zásobníku"
+L["autostat.magreducer"] = "Zmenšená kapacita zásobníku"
 L["autostat.bipod"] = "Lze použít dvounožku"
 L["autostat.holosight"] = "Přesný pohled"
 L["autostat.zoom"] = "Zvýšené přiblížení"
@@ -207,9 +207,9 @@ L["info.togglesight"] = "Dvojitýmn stisknutím +USE lze přepnout mířidla."
 L["info.toggleubgl"] = "Dvojitýmn stisknutím +ZOOM lze přepnout na podpažní zbraň"
 L["pro.ubgl"] = "Vybratelný podpažní granátomet"
 L["pro.ubsg"] = "Vybratelná podpažní brokovnice"
-L["con.obstruction"] = "Může bránit výhled"
-L["autostat.underwater"] = "Lze střílet pod vodou"
-L["autostat.sprintshoot"] = "Lze střílet za běhu"
+L["con.obstruction"] = "Může bránit výhledu"
+L["autostat.underwater"] = "Umožňuje střílet pod vodou"
+L["autostat.sprintshoot"] = "Umožňuje střílet za běhu"
 
 -- Incompatibility Menu
 L["incompatible.title"] = "ArcCW: ZJIŠTĚNY NEKOMPATIBILNÍ DOPLŇKY"
@@ -231,7 +231,7 @@ L["fcg.ubgl"] = "UBGL"
 
 -- 2021-01-14
 L["ui.toggle"] = "TOGGLE"
-L["ui.whenmode"] = "Když %s (??)"
+L["ui.whenmode"] = "Když %s (??)" -- What?
 L["ui.modex"] = "Režim %s"
 
 -- 2021-01-25
