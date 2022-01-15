@@ -14,6 +14,7 @@ We recommend submitting translations of non-official packs to the respective add
 - **Simplified Chinese**: 8Z
 - **Korean**: [Tensa](https://github.com/10sa)
 - **Russian**: [Blueberryy](https://github.com/Blueberryy)
+- **Czech**: [BlacK](https://github.com/SemixOfficial)
 
 ### Base Pack (Content)
 
@@ -21,15 +22,16 @@ We recommend submitting translations of non-official packs to the respective add
 - **Spanish**: rzen1th, [thejaviertc](https://github.com/thejaviertc)
 - **English - Pirate**: Fesiug
 - **Russian**: [Blueberryy](https://github.com/Blueberryy)
+- **Czech**: [BlacK](https://github.com/SemixOfficial)
 
 ### CS+
 
 - **Simplified Chinese**: 8Z
 - **Russian**: [Blueberryy](https://github.com/Blueberryy)
+- **Czech**: [BlacK](https://github.com/SemixOfficial)
 
 ### GSO
-
-N/A
+- **Czech**: [BlacK](https://github.com/SemixOfficial)
 
 ## How to Contribute
 
