@@ -290,6 +290,52 @@ L["autostat.clipsize"] = "%d 发弹夹容量"
 L["autostat.bipod2"] = "可用两脚架 (-%d%% 扩散，-%d%% 后坐力)"
 L["autostat.nobipod"] = "禁用两脚架"
 
+--2021-07-01
+L["fcg.safe2"] = "低位"
+L["fcg.bolt"] = "栓动"
+L["fcg.pump"] = "泵动"
+L["fcg.lever"] = "杠杆"
+L["fcg.manual"] = "手动"
+L["fcg.break"] = "后装"
+L["fcg.sngl"] = "单发"
+L["fcg.both"] = "双管"
+L["fcg.bolt"] = "栓动"
+L["fcg.pump"] = "泵动"
+L["fcg.sact"] = "单动"
+L["fcg.dact"] = "双动"
+
+--2021-08-11
+L["autostat.clipsize.mod"] = "装填弹量"
+
+--2021-08-22
+L["trivia.recoilscore"] = "后坐力评分 (越低越好)"
+L["fcg.safe.abbrev"] = "SAFE"
+L["fcg.semi.abbrev"] = "SEMI"
+L["fcg.auto.abbrev"] = "AUTO"
+L["fcg.burst.abbrev"] = "%d-BST"
+L["fcg.ubgl.abbrev"] = "UBGL"
+L["fcg.safe2.abbrev"] = "LOW"
+L["fcg.dact.abbrev"] = "DACT"
+L["fcg.sact.abbrev"] = "SACT"
+L["fcg.bolt.abbrev"] = "BOLT"
+L["fcg.pump.abbrev"] = "PUMP"
+L["fcg.lever.abbrev"] = "LEVER"
+L["fcg.manual.abbrev"] = "MANUAL"
+L["fcg.break.abbrev"] = "BREAK"
+L["fcg.sngl.abbrev"] = "SNGL"
+L["fcg.both.abbrev"] = "BOTH"
+
+-- 2021-11-27
+L["ui.hitgroup"] = "部位"
+L["ui.shotstokill"] = "命中次数"
+L["ui.hitgroup.head"] = "头"
+L["ui.hitgroup.torso"] = "上身" -- chest+stomach when they're the same
+L["ui.hitgroup.chest"] = "胸口"
+L["ui.hitgroup.stomach"] = "腹部"
+L["ui.hitgroup.arms"] = "手部"
+L["ui.hitgroup.legs"] = "腿部"
+L["ui.nonum"] = "没有发射子弹" -- num is 0
+
 L["ammo.pistol"] = "手枪弹药"
 L["ammo.357"] = "马格南弹药"
 L["ammo.smg1"] = "中型弹药"
@@ -297,10 +343,3 @@ L["ammo.ar2"] = "步枪弹药"
 L["ammo.buckshot"] = "霰弹弹药"
 L["ammo.sniperpenetratedround"] = "狙击弹药"
 L["ammo.smg1_grenade"] = "枪榴弹"
-
-L["fcg.sngl"] = "单发"
-L["fcg.bolt"] = "栓动"
-L["fcg.pump"] = "泵动"
-L["fcg.both"] = "双管"
-L["fcg.sact"] = "单动"
-L["fcg.dact"] = "双动"
