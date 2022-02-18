@@ -1,5 +1,5 @@
 ## Languages
- - [Русский](https://github.com/TheOnly8Z/ArcCW-Localization/blob/master/README_RU.md)
+ - ![](https://user-images.githubusercontent.com/36592509/154674410-f7f2a21d-f2c4-42df-807f-9dcbb5cd0157.png) [Русский](https://github.com/TheOnly8Z/ArcCW-Localization/blob/master/README_RU.md)
 
 
 # ArcCW Localization
