@@ -1,4 +1,5 @@
 L = {}
+STL = {}
 
 -- not a translate string, but in case a language needs its own font
 L["default_font"] = "Bahnschrift"
@@ -27,8 +28,6 @@ L["attslot.grip.default"] = "Стандартная рукоять"
 L["attslot.stock.default"] = "Стандартный приклад"
 L["attslot.stock.none"] = "Нет приклада"
 L["attslot.fcg.default"] = "Стандартный тип стрельбы"
-L["attslot.slide"] = "Ствол"
-L["attslot.magazine"] = "Магазин"
 
 -- Trivia
 L["trivia.class"] = "Класс"
@@ -43,7 +42,8 @@ L["trivia.precision"] = "Точность"
 L["trivia.noise"] = "Шум"
 L["trivia.recoil"] = "Импульс отдачи"
 L["trivia.penetration"] = "Мощность прострела"
-L["trivia.firerate"] = "Скорость стрельбы"
+L["trivia.firerate"] = "Скорострельность"
+L["trivia.firerate_burst"] = "Скор-сть стрельбы очередями"
 L["trivia.fusetime"] = "Время взрыва"
 
 -- Class
@@ -51,7 +51,7 @@ L["class.pistol"] = "Пистолет"
 L["class.revolver"] = "Револьвер"
 L["class.machinepistol"] = "Автоматический пистолет"
 L["class.smg"] = "Пистолет-пулемёт"
-L["class.pdw"] = "Оружие личной защиты"
+L["class.pdw"] = "Оружие самозащиты"
 L["class.shotgun"] = "Дробовик"
 L["class.assaultcarbine"] = "Штурмовой карабин"
 L["class.carbine"] = "Карабин"
@@ -73,8 +73,8 @@ L["ui.trivia"] = "История"
 L["ui.tttequip"] = "Снаряжение TTT"
 L["ui.tttchat"] = "Быстр. сообщения TTT"
 L["ui.position"] = "ПОЗИЦИЯ"
-L["ui.positives"] = "ПЛЮСЫ:"
-L["ui.negatives"] = "МИНУСЫ:"
+L["ui.positives"] = "ПРЕИМУЩЕСТВА:"
+L["ui.negatives"] = "НЕДОСТАТКИ:"
 L["ui.information"] = "ИНФОРМАЦИЯ:"
 
 -- Stats
@@ -134,7 +134,7 @@ L["autostat.meleerange"] = "Дальность ближнего боя"
 L["autostat.recoil"] = "Отдача"
 L["autostat.recoilside"] = "Горизонтальная отдача"
 L["autostat.firerate"] = "Скорострельность"
-L["autostat.precision"] = "Прецизионность"
+L["autostat.precision"] = "Точность"
 L["autostat.hipdisp"] = "Разброс при стрельбе от бедра"
 L["autostat.sightdisp"] = "Разброс при прицеливании"
 L["autostat.movedisp"] = "Разброс при передвижении"
@@ -145,7 +145,7 @@ L["autostat.speedmult"] = "Скорость передвижения"
 L["autostat.sightspeed"] = "Скорость передвижения при прицеливании"
 L["autostat.shootspeed"] = "Скорость передвижения при стрельбе"
 L["autostat.reloadtime"] = "Скорость перезарядки"
-L["autostat.drawtime"] = "Время доставания оружия"
+L["autostat.drawtime"] = "Время переключения оружия"
 L["autostat.sighttime"] = "Скорость прицеливания (при беге)"
 L["autostat.cycletime"] = "Время цикла перезарядки"
 L["autostat.magextender"] = "Увеличенная ёмкость магазина"
@@ -172,7 +172,7 @@ L["ttt.roundinfo.cmode1"] = "Ограниченно"
 L["ttt.roundinfo.cmode2"] = "Только перед игрой"
 L["ttt.roundinfo.cmode3"] = "Только для П/Д"
 
-L["ttt.roundinfo.attmode"] = "Режим частей оружия:"
+L["ttt.roundinfo.attmode"] = "Режим насадок оружия:"
 L["ttt.roundinfo.free"] = "Свободно"
 L["ttt.roundinfo.locking"] = "Заблокировано"
 L["ttt.roundinfo.inv"] = "Инвентарь"
@@ -181,7 +181,7 @@ L["ttt.roundinfo.drop"] = "Выпадают при смерти"
 L["ttt.roundinfo.inv"] = "Инвентарь"
 L["ttt.roundinfo.pickx"] = "Выбор"
 
-L["ttt.roundinfo.bmode"] = "Инф-ция о част. оруж. на теле:"
+L["ttt.roundinfo.bmode"] = "Инф-ция о наса. оруж. на теле:"
 L["ttt.roundinfo.bmode0"] = "Недоступно"
 L["ttt.roundinfo.bmode1"] = "Только для детективов"
 L["ttt.roundinfo.bmode2"] = "Доступно"
@@ -195,15 +195,15 @@ L["ttt.roundinfo.achain"] = "Цепные взрывы"
 
 L["ttt.bodyatt.found"] = "Вы думаете, что орудие убийства"
 L["ttt.bodyatt.founddet"] = "С вашими детективными навыками вы выводите орудие убийства"
-L["ttt.bodyatt.att1"] = " имело часть оружия {att} установленной."
+L["ttt.bodyatt.att1"] = " имело насадку оружия {att} установленной."
 L["ttt.bodyatt.att2"] = " имело {att1} и {att2} установленными."
-L["ttt.bodyatt.att3"] = " имело следующие части оружия: "
+L["ttt.bodyatt.att3"] = " имело следующие насадки оружия: "
 
-L["ttt.attachments"] = " частей оружия: " -- Used in TTT2 TargetID
+L["ttt.attachments"] = " насадок оружия: " -- Used in TTT2 TargetID
 L["ttt.ammo"] = "Патр: " -- Used in TTT2 TargetID
 
 -- Shit that used to be in CS+ why
-L["info.togglesight"] = "Дважды нажм. + USE, чтобы переключить прицел"
+L["info.togglesight"] = "Дважды нажм. +USE, чтобы переключить прицел"
 L["info.toggleubgl"] = "Дважды нажм. +ZOOM, чтобы переключить подствольник"
 L["pro.ubgl"] = "Выбираемая подствольная пусковая установка"
 L["pro.ubsg"] = "Выбираемый подствольный дробовик"
@@ -219,7 +219,7 @@ L["incompatible.confirm"] = "Подтвердить"
 L["incompatible.wait"] = "Подождите {time}с"
 L["incompatible.never"] = "Никогда не предупреждать меня снова"
 L["incompatible.never.hover"] = "Вы абсолютно уверены, что понимаете последствия?"
-L["incompatible.never.confirm"] = "Вы решили никогда больше не показывать предупреждения о несовместимости. Если вы столкнётесь с ошибками или неправильные работы в дополнения, это ваша личная ответственность."
+L["incompatible.never.confirm"] = "Вы решили никогда больше не видеть предупреждения о несовместимости. Если вы столкнётесь с ошибками или неправильными работы в дополнениях, это ваша личная проблема."
 
 -- 2020-12-11
 L["hud.hp"] = "ОЗ: " -- Used in default HUD
@@ -239,18 +239,150 @@ L["stat.mm"] = "мм"
 L["stat.lbfps"] = " фт"
 L["stat.dmg"] = "УРН"
 L["stat.rpm"] = "ВСТ"
-L["label.cancel"] = "Отмена"
-L["label.save"] = "Сохранить"
-L["save_preset.help"] = "Наборы не найдены! Сделай немного!"
-L["label.blacklist_title"] = "Чёрный список ArcCW"
-L["label.blacklist_help"] = "Части оружия, отмеченные здесь, перестанут отображаться вообще."
-L["label.blacklist_filter"] = "ФИЛЬТР"
-L["label.blacklist_blacklisted"] = "В ЧЁРНОМ СПИСКЕ"
-L["label.blacklist_all"] = "ВСЕ"
-L["label.blacklist_name"] = "НАЗВАНИЕ"
-L["label.blacklist_not_saved"] = " [не сохранено]"
 
--- You can translate the trivia of any arbitrary weapon or attachment by adding the phrase ["desc.class_name"]
--- Similarly, you can translate attachment and weapon names with ["name.class_name"]
--- When translating weapon names, append .true for truename, like ["name.arccw_p228.true"]
--- Example: {L["desc.fcg_auto"] = "blah blah blah automatic firemode" ["name.fcg_auto"] = "Auto But Cooler"}
+-- 2021-01-14
+L["ui.toggle"] = "ПЕРЕКЛ."
+L["ui.whenmode"] = "Когда %s"
+L["ui.modex"] = "Режим: %s"
+
+-- 2021-01-25
+L["attslot.magazine"] = "Магазин"
+
+-- 2021-03-13
+L["trivia.damage"] = "Урон"
+L["trivia.range"] = "Дальность"
+L["trivia.attackspersecond"] = "Количество атак в секунду"
+L["trivia.description"] = "Описание"
+L["trivia.meleedamagetype"] = "Тип повреждения"
+
+-- Units
+L["unit.rpm"] = "ВСТ"
+L["unit.moa"] = "УМ"
+L["unit.mm"] = "мм"
+L["unit.db"] = "дБ"
+L["unit.bce"] = "BC"
+L["unit.aps"] = "APS"
+
+-- melee damage types
+L["dmg.generic"] = "Безоружный"
+L["dmg.bullet"] = "Колющий"
+L["dmg.slash"] = "Режущий"
+L["dmg.club"] = "Тупой"
+L["dmg.shock"] = "Оглушающий"
+
+L["ui.presets"] = "Предустановки"
+L["ui.customize"] = "Модификация"
+L["ui.inventory"] = "Инвентарь"
+
+-- 2021-05-05
+L["ui.gamemode_buttons"] = "Команды игрового режима"
+L["ui.gamemode_usehint"] = "Вы можете удерживать клавишу ИСПОЛЬЗОВАТЬ, чтобы получить доступ к изначальным привязкам клавиш."
+L["ui.darkrpdrop"] = "Выбросить оружие"
+L["ui.noatts"] = "У вас нет насадок оружия"
+L["ui.noatts_slot"] = "У вас нет насадок оружия для этого слота"
+L["ui.lockinv"] = "Эти насадки оружия открыты для всех видов оружия."
+L["autostat.ammotype"] = "Преобразует тип боеприпасов оружия в %s"
+
+-- 2021-05-08
+L["autostat.rangemin"] = "Минимальная дальность"
+
+-- 2021-05-13
+L["autostat.malfunctionmean"] = "Надёжность"
+L["ui.heat"] = "ПЕРЕГРЕВ"
+L["ui.jammed"] = "ЗАКЛИНИЛО"
+
+-- 2021-05-15
+L["trivia.muzzlevel"] = "Начальная скорость"
+L["unit.mps"] = "м/с"
+L["unit.lbfps"] = "фунт-ффс"
+L["trivia.recoilside"] = "Горизонтальная отдача"
+
+--2021-05-27
+L["ui.pickx"] = "Насадок: %d/%d"
+L["ui.ballistics"] = "Баллистика"
+
+L["ammo.pistol"] = "Патроны для пистолета"
+L["ammo.357"] = "Патроны для магнума"
+L["ammo.smg1"] = "Патроны для карабина"
+L["ammo.ar2"] = "Патроны для винтовки"
+L["ammo.buckshot"] = "Патроны для дробовика"
+L["ammo.sniperpenetratedround"] = "Патроны для снайперской винтовки"
+L["ammo.smg1_grenade"] = "Гранаты винтовки"
+
+--2021-05-31
+L["ui.nodata"] = "Нет данных"
+L["ui.createpreset"] = "Создать"
+L["ui.deletepreset"] = "Удалить"
+
+--2021-06-09 nice
+L["autostat.clipsize"] = "%d ёмкости магазина"
+
+--2021-06-30
+L["autostat.bipod2"] = "Позволяет использовать сошки (-%d%% Разброс, -%d%% Отдача)"
+L["autostat.nobipod"] = "Невозможно использование сошек"
+
+--2021-07-01
+L["fcg.safe2"] = "Спрятан"
+L["fcg.dact"] = "Самовзводный"
+L["fcg.sact"] = "Одинарного действия"
+L["fcg.bolt"] = "Скользящий затвор"
+L["fcg.pump"] = "Помпового действия"
+L["fcg.lever"] = "Рычажного действия"
+L["fcg.manual"] = "Ручного действия"
+L["fcg.break"] = "Переламывающегося действия"
+L["fcg.sngl"] = "Одиночный"
+L["fcg.both"] = "Оба режима"
+
+--2021-08-11
+L["autostat.clipsize.mod"] = "Ёмкость магазина" -- used for Add_ClipSize and Mult_ClipSize
+
+--2021-08-22
+L["trivia.recoilscore"] = "Оценка отдачи (меньше - лучше)"
+L["fcg.safe.abbrev"] = "ПРЕД"
+L["fcg.semi.abbrev"] = "ПОЛУ"
+L["fcg.auto.abbrev"] = "АВТО"
+L["fcg.burst.abbrev"] = "%dВСТ"
+L["fcg.ubgl.abbrev"] = "ПДСТ"
+L["fcg.safe2.abbrev"] = "СПТН"
+L["fcg.dact.abbrev"] = "СМВД"
+L["fcg.sact.abbrev"] = "ОДНР"
+L["fcg.bolt.abbrev"] = "СКЛЗ"
+L["fcg.pump.abbrev"] = "ПОМП"
+L["fcg.lever.abbrev"] = "РЧЖН"
+L["fcg.manual.abbrev"] = "РЧНО"
+L["fcg.break.abbrev"] = "ПРЛМ"
+L["fcg.sngl.abbrev"] = "ОНЧН"
+L["fcg.both.abbrev"] = "ОБА"
+
+-- 2021-10-10
+STL["lowered"] = "fcg.safe2"
+STL["double-action"] = "fcg.dact"
+STL["single-action"] = "fcg.sact"
+STL["bolt-action"] = "fcg.bolt"
+STL["pump-action"] = "fcg.pump"
+STL["lever-action"] = "fcg.lever"
+STL["manual-action"] = "fcg.manual"
+STL["break-action"] = "fcg.break"
+--STL["single"] = "fcg.sngl"
+--STL["both"] = "fcg.both"
+
+-- 2021-11-27
+L["ui.hitgroup"] = "Место попадания"
+L["ui.shotstokill"] = "Выстрелов до убийства"
+L["ui.hitgroup.head"] = "Голова"
+L["ui.hitgroup.torso"] = "Туловище" -- chest+stomach when they're the same
+L["ui.hitgroup.chest"] = "Грудь"
+L["ui.hitgroup.stomach"] = "Живот"
+L["ui.hitgroup.arms"] = "Руки"
+L["ui.hitgroup.legs"] = "Ноги"
+L["ui.nonum"] = "Чтобы убивать людей, нужны пули, глупец." -- num is 0
+
+--[[]
+You can translate the trivia of any arbitrary weapon or attachment by adding the phrase ["desc.class_name"]
+Similarly, you can translate attachment and weapon names with ["name.class_name"]
+When translating weapon names, append .true for truename, like ["name.arccw_p228.true"]
+Example:
+ L["desc.fcg_auto"] = "blah blah blah automatic firemode"
+ L["name.fcg_auto"] = "Auto But Cooler"
+You can also translate custom firemodes with "fcg.FIREMODE_NAME"
+]]
