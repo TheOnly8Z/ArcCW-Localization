@@ -1,5 +1,5 @@
 ## Языки
- - [English](https://github.com/TheOnly8Z/ArcCW-Localization/blob/master/README.md)
+ - ![](https://user-images.githubusercontent.com/36592509/154674514-fb78defd-9250-4461-9bbd-770201c1a66e.png) [English](https://github.com/TheOnly8Z/ArcCW-Localization/blob/master/README.md)
 
 
 # Локализация ArcCW
