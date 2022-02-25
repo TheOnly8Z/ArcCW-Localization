@@ -228,7 +228,7 @@ L["hud.hp"] = "ОЗ: " -- Used in default HUD
 L["fcg.safe"] = "ПРЕД"
 L["fcg.semi"] = "ПОЛУ"
 L["fcg.auto"] = "АВТО"
-L["fcg.burst"] = "%dВСТ"
+L["fcg.burst"] = "%d-ВСТ"
 L["fcg.ubgl"] = "ПДСТ"
 
 -- 2020-12-12
@@ -343,7 +343,7 @@ L["trivia.recoilscore"] = "Оценка отдачи (меньше - лучше)
 L["fcg.safe.abbrev"] = "ПРЕД"
 L["fcg.semi.abbrev"] = "ПОЛУ"
 L["fcg.auto.abbrev"] = "АВТО"
-L["fcg.burst.abbrev"] = "%dВСТ"
+L["fcg.burst.abbrev"] = "%d-ВСТ"
 L["fcg.ubgl.abbrev"] = "ПДСТ"
 L["fcg.safe2.abbrev"] = "СПТН"
 L["fcg.dact.abbrev"] = "СМВД"
