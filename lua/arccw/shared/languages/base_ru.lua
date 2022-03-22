@@ -174,7 +174,7 @@ L["ttt.roundinfo.cmode1"] = "Ограниченно"
 L["ttt.roundinfo.cmode2"] = "Только перед игрой"
 L["ttt.roundinfo.cmode3"] = "Только для П/Д"
 
-L["ttt.roundinfo.attmode"] = "Режим насадок оружия:"
+L["ttt.roundinfo.attmode"] = "Режим модулей оружия:"
 L["ttt.roundinfo.free"] = "Свободно"
 L["ttt.roundinfo.locking"] = "Заблокировано"
 L["ttt.roundinfo.inv"] = "Инвентарь"
@@ -197,11 +197,11 @@ L["ttt.roundinfo.achain"] = "Цепные взрывы"
 
 L["ttt.bodyatt.found"] = "Вы думаете, что орудие убийства"
 L["ttt.bodyatt.founddet"] = "С вашими детективными навыками вы выводите орудие убийства"
-L["ttt.bodyatt.att1"] = " имело насадку оружия {att} установленной."
-L["ttt.bodyatt.att2"] = " имело {att1} и {att2} установленными."
-L["ttt.bodyatt.att3"] = " имело следующие насадки оружия: "
+L["ttt.bodyatt.att1"] = " имеет модуль оружия {att} установленным."
+L["ttt.bodyatt.att2"] = " имеет {att1} и {att2} установленными."
+L["ttt.bodyatt.att3"] = " имеет следующие модули оружия: "
 
-L["ttt.attachments"] = " насадок оружия: " -- Used in TTT2 TargetID
+L["ttt.attachments"] = " модулей оружия: " -- Used in TTT2 TargetID
 L["ttt.ammo"] = "Патр: " -- Used in TTT2 TargetID
 
 -- Shit that used to be in CS+ why
@@ -280,9 +280,9 @@ L["ui.inventory"] = "Инвентарь"
 L["ui.gamemode_buttons"] = "Команды игрового режима"
 L["ui.gamemode_usehint"] = "Вы можете удерживать клавишу ИСПОЛЬЗОВАТЬ, чтобы получить доступ к изначальным привязкам клавиш."
 L["ui.darkrpdrop"] = "Выбросить оружие"
-L["ui.noatts"] = "У вас нет насадок оружия"
-L["ui.noatts_slot"] = "У вас нет насадок оружия для этого слота"
-L["ui.lockinv"] = "Эти насадки оружия открыты для всех видов оружия."
+L["ui.noatts"] = "У вас нет модулей оружия"
+L["ui.noatts_slot"] = "У вас нет модулей оружия для этого слота"
+L["ui.lockinv"] = "Эти модули оружия открыты для всех видов оружия."
 L["autostat.ammotype"] = "Изменяет тип боеприпасов оружия на: %s"
 
 -- 2021-05-08
@@ -300,7 +300,7 @@ L["unit.lbfps"] = "фунт-ффс"
 L["trivia.recoilside"] = "Горизонтальная отдача"
 
 --2021-05-27
-L["ui.pickx"] = "Насадок: %d/%d"
+L["ui.pickx"] = "Модулей: %d/%d"
 L["ui.ballistics"] = "Баллистика"
 
 L["ammo.pistol"] = "Патроны для пистолета"
@@ -346,8 +346,8 @@ L["fcg.auto.abbrev"] = "АВТО"
 L["fcg.burst.abbrev"] = "%d-ВСТ"
 L["fcg.ubgl.abbrev"] = "ПДСТ"
 L["fcg.safe2.abbrev"] = "СПТН"
-L["fcg.dact.abbrev"] = "ДВДВ"
-L["fcg.sact.abbrev"] = "ОДДВ"
+L["fcg.dact.abbrev"] = "ДВДЕ"
+L["fcg.sact.abbrev"] = "ОДДЕ"
 L["fcg.bolt.abbrev"] = "СКЛЗ"
 L["fcg.pump.abbrev"] = "ПОМП"
 L["fcg.lever.abbrev"] = "РЧЖН"
