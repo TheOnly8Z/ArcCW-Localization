@@ -31,6 +31,7 @@ We recommend submitting translations of non-official packs to the respective add
 - **Czech**: [BlacK](https://github.com/SemixOfficial)
 
 ### GSO
+- **Russian**: [Blueberryy](https://github.com/Blueberryy)
 - **Czech**: [BlacK](https://github.com/SemixOfficial)
 
 ## How to Contribute
