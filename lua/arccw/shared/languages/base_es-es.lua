@@ -1,4 +1,5 @@
 L = {}
+STL = {}
 
 -- Not a translate string, but in case a language needs its own font
 L["default_font"] = "Bahnschrift"
@@ -42,6 +43,7 @@ L["trivia.noise"] = "Ruido"
 L["trivia.recoil"] = "Retroceso"
 L["trivia.penetration"] = "Penetración"
 L["trivia.firerate"] = "Cadencia de Disparo"
+L["trivia.firerate_burst"] = "Cadencia de Disparo de Ráfaga"
 L["trivia.fusetime"] = "Tiempo de Detonación"
 
 -- Class
@@ -208,6 +210,10 @@ L["pro.ubsg"] = "Escopeta debajo del cañón disponible"
 L["con.obstruction"] = "Puede que tape la mira"
 L["autostat.underwater"] = "Dispara debajo del agua"
 L["autostat.sprintshoot"] = "Dispara mientras corres"
+L["con.beam"] = "Rayo "
+L["con.light"] = "Visible flashlight beam"
+L["con.noscope"] = "No point of aim"
+L["pro.invistracers"] = "Invisible tracers"
 
 -- Incompatibility Menu
 L["incompatible.title"] = "ArcCW: ADDON INCOMPATIBLE"
@@ -225,7 +231,7 @@ L["fcg.safe"] = "SEGURO"
 L["fcg.semi"] = "SEMI"
 L["fcg.auto"] = "AUTO"
 L["fcg.burst"] = "RÁFAGA-%d"
-L["fcg.ubgl"] = "UBGL"
+L["fcg.ubgl"] = "LGDC" -- Landazor de Granadas Debajo del Cañon
 
 -- 2021-01-14
 L["ui.toggle"] = "ALTERNAR"
@@ -273,7 +279,108 @@ L["autostat.ammotype"] = "Convertir el tipo de munición del arma a %s"
 -- 2021-05-08
 L["autostat.rangemin"] = "Rango mínimo"
 
--- You can translate the trivia of any arbitrary weapon or attachment by adding the phrase ["desc.class_name"]
--- Similarly, you can translate attachment and weapon names with ["name.class_name"]
--- When translating weapon names, append .true for truename, like ["name.arccw_p228.true"]
--- Example: {L["desc.fcg_auto"] = "blah blah blah automatic firemode" ["name.fcg_auto"] = "Auto But Cooler"}
+-- 2021-05-13
+L["autostat.malfunctionmean"] = "Fiabilidad"
+L["ui.heat"] = "CALOR"
+L["ui.jammed"] = "ATASCADO"
+
+-- 2021-05-15
+L["trivia.muzzlevel"] = "Velocidad de Salida"
+L["unit.mps"] = "m/s"
+L["unit.lbfps"] = "lb-fps"
+L["trivia.recoilside"] = "Retroceso Horizontal"
+
+--2021-05-27
+L["ui.pickx"] = "Accesorios: %d/%d"
+L["ui.ballistics"] = "Balística"
+
+L["ammo.pistol"] = "Munición de Pistola"
+L["ammo.357"] = "Munición Magnum"
+L["ammo.smg1"] = "Munición de Carabina"
+L["ammo.ar2"] = "Munición de Rifle"
+L["ammo.buckshot"] = "Munición de Escopeta"
+L["ammo.sniperpenetratedround"] = "Munición de Francotirador"
+L["ammo.smg1_grenade"] = "Granadas de Rifle"
+
+--2021-05-31
+L["ui.nodata"] = "Sin Datos"
+L["ui.createpreset"] = "Crear"
+L["ui.deletepreset"] = "Eliminar"
+
+--2021-06-09 nice
+L["autostat.clipsize"] = "Capacidad del cargador de %d balas"
+
+--2021-06-30
+L["autostat.bipod2"] = "Permite bípode (-%d%% de Dispersión, -%d%% de Retroceso)"
+L["autostat.nobipod"] = "No Permite bípode"
+
+--2021-07-01
+L["fcg.safe2"] = "Bajada"
+L["fcg.dact"] = "Acción Doble"
+L["fcg.sact"] = "Acción Simple"
+L["fcg.bolt"] = "Acción de Cerrojo"
+L["fcg.pump"] = "Acción de Bombeo"
+L["fcg.lever"] = "Acción de Palanca"
+L["fcg.manual"] = "Acción Manual"
+L["fcg.break"] = "Acción de Ruptura"
+L["fcg.sngl"] = "Simple"
+L["fcg.both"] = "Ambos"
+
+--2021-08-11
+L["autostat.clipsize.mod"] = "Capacidad del Cargador" -- used for Add_ClipSize and Mult_ClipSize
+
+--2021-08-22
+L["trivia.recoilscore"] = "Puntuación de Retroceso (Cuanto más bajo mejor)"
+L["fcg.safe.abbrev"] = "SEGURO"
+L["fcg.semi.abbrev"] = "SEMI"
+L["fcg.auto.abbrev"] = "AUTO"
+L["fcg.burst.abbrev"] = "%d-DISP"
+L["fcg.ubgl.abbrev"] = "LGDC" -- Landazor de Granadas Debajo del Cañon
+L["fcg.safe2.abbrev"] = "BAJO"
+L["fcg.dact.abbrev"] = "DOBLE"
+L["fcg.sact.abbrev"] = "SIMPLE"
+L["fcg.bolt.abbrev"] = "CERROJO"
+L["fcg.pump.abbrev"] = "BOMBEO"
+L["fcg.lever.abbrev"] = "PALANCA"
+L["fcg.manual.abbrev"] = "MANUAL"
+L["fcg.break.abbrev"] = "RUPTURA"
+L["fcg.sngl.abbrev"] = "SIMPLE"
+L["fcg.both.abbrev"] = "AMBOS"
+
+-- 2021-10-10
+STL["lowered"] = "fcg.safe2"
+STL["double-action"] = "fcg.dact"
+STL["single-action"] = "fcg.sact"
+STL["bolt-action"] = "fcg.bolt"
+STL["pump-action"] = "fcg.pump"
+STL["lever-action"] = "fcg.lever"
+STL["manual-action"] = "fcg.manual"
+STL["break-action"] = "fcg.break"
+--STL["single"] = "fcg.sngl"
+--STL["both"] = "fcg.both"
+
+-- 2021-11-27
+L["ui.hitgroup"] = "Grupo de Acierto"
+L["ui.shotstokill"] = "Disparos para matar"
+L["ui.hitgroup.head"] = "Cabeza"
+L["ui.hitgroup.torso"] = "Torso" -- chest+stomach when they're the same
+L["ui.hitgroup.chest"] = "Pecho"
+L["ui.hitgroup.stomach"] = "Estómago"
+L["ui.hitgroup.arms"] = "Brazos"
+L["ui.hitgroup.legs"] = "Piernas"
+L["ui.nonum"] = "Necesitas balas para matar gente, idiota." -- num is 0
+
+--2022-05-23
+L["fcg.nade"] = "Granada"
+L["fcg.nade.abbrev"] = "GRANADA"
+
+
+--[[]
+You can translate the trivia of any arbitrary weapon or attachment by adding the phrase ["desc.class_name"]
+Similarly, you can translate attachment and weapon names with ["name.class_name"]
+When translating weapon names, append .true for truename, like ["name.arccw_p228.true"]
+Example:
+ L["desc.fcg_auto"] = "blah blah blah automatic firemode"
+ L["name.fcg_auto"] = "Auto But Cooler"
+You can also translate custom firemodes with "fcg.FIREMODE_NAME"
+]]
