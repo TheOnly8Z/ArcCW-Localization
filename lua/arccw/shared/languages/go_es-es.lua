@@ -20,4 +20,4 @@ L["con.noscope"] = "Sin punto de mira"
 L["pro.ammo_blank"] = "!Inofensivo!"
 L["con.ammo_blank"] = "Inofensivo."
 
-L["pro.ignite"] = "Prende en fuego a los enemigos"
+L["pro.ignite"] = "Prende en fuego a los objetivos"
