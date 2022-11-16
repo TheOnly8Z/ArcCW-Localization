@@ -212,6 +212,10 @@ L["pro.ubsg"] = "Выбираемый подствольный дробовик"
 L["con.obstruction"] = "Может затруднять обзор"
 L["autostat.underwater"] = "Стреляет под водой"
 L["autostat.sprintshoot"] = "Стреляет на бегу"
+L["con.beam"] = "Видимый луч от лазера"
+L["con.light"] = "Видимый луч от фонарика"
+L["con.noscope"] = "Нет точки прицела"
+L["pro.invistracers"] = "Невидимые следы во время полёта пуль"
 
 -- Incompatibility Menu
 L["incompatible.title"] = "ArcCW: НЕСОВМЕСТИМЫЕ ДОПОЛНЕНИЯ"
@@ -273,7 +277,7 @@ L["dmg.club"] = "Тупой"
 L["dmg.shock"] = "Оглушающий"
 
 L["ui.presets"] = "Предустановки"
-L["ui.customize"] = "Настройка"
+L["ui.customize"] = "Модификация"
 L["ui.inventory"] = "Инвентарь"
 
 -- 2021-05-05
@@ -378,6 +382,20 @@ L["ui.hitgroup.stomach"] = "Живот"
 L["ui.hitgroup.arms"] = "Руки"
 L["ui.hitgroup.legs"] = "Ноги"
 L["ui.nonum"] = "Чтобы убивать людей, нужны пули, глупец." -- num is 0
+
+-- 2022-05-23
+L["fcg.nade"] = "Граната"
+L["fcg.nade.abbrev"] = "ГРНТ"
+
+-- 2022-08-03
+L["attslot.magazine"] = "Обойма"
+L["attslot.magazine.default"] = "Стандартная обойма"
+
+-- 2022-08-17
+L["autostat.ubgl"] = "Выбор оружия под стволом"
+L["autostat.ubgl2"] = "Нажмите клавишу ИСПОЛЬЗОВАТЬ и ПЕРЕЗАРЯДКА вместе для, чтобы воспользоваться подствольником"
+L["autostat.ammotypeubgl"] = "Подствольник использует: %s"
+
 
 --[[]
 You can translate the trivia of any arbitrary weapon or attachment by adding the phrase ["desc.class_name"]
