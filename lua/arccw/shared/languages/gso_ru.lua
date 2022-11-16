@@ -572,6 +572,8 @@ STL["SNGL"] = "fcg.sngl.abbrev"
 STL["FIRE"] = "arccw_go_awp.firemode"
 L["arccw_go_awp.firemode"] = "ВЫСТ"
 STL["DACT"] = "fcg.dact.abbrev"
+STL["UB (BUCK)"] = "ubgl_mass.firemode" -- attempt to translate underbarrel fire mode
+L["ubgl_mass.firemode"] = "ПД (КРТЧ)"
 
 -- Charms
 L["name.charm_punished"] = "«Наказание»"
