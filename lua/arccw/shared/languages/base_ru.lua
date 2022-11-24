@@ -83,11 +83,11 @@ L["ui.information"] = "ИНФОРМАЦИЯ:"
 L["stat.stat"] = "Статистика" -- Used on first line of stat page
 L["stat.original"] = "Обычно"
 L["stat.current"] = "Текущий"
-L["stat.damage"] = "Урон с близк. расстояния"
+L["stat.damage"] = "Урон с близкой дистанции"
 L["stat.damage.tooltip"] = "Сколько урона наносит это оружие в упор."
-L["stat.damagemin"] = "Урон с дальн. расстояния"
+L["stat.damagemin"] = "Урон с дальней дистанции"
 L["stat.damagemin.tooltip"] = "Сколько урона это оружие наносит с дальнего расстояния."
-L["stat.range"] = "Дальность"
+L["stat.range"] = "Дистанция"
 L["stat.range.tooltip"] = "Расстояние, между которым урон с близкого расстояния превращаются в урон с дальнего расстояния, в метрах."
 L["stat.firerate"] = "Скорострельность"
 L["stat.firerate.tooltip"] = "Скорость, с которой это оружие циклируется, выстрелами в минуту."
@@ -124,10 +124,10 @@ L["stat.pen.tooltip"] = "Сколько материала может проби
 -- Autostats
 L["autostat.bipodrecoil"] = "Отдача в сошке"
 L["autostat.bipoddisp"] = "Разброс в сошке"
-L["autostat.damage"] = "Урон с близкого расстояния"
-L["autostat.damagemin"] = "Урон с дальн. расстояния"
+L["autostat.damage"] = "Урон с близкой дистанции"
+L["autostat.damagemin"] = "Урон с дальней дистанции"
 L["autostat.damageboth"] = "Урон" -- When damage and damagemin are the same value
-L["autostat.range"] = "Дальность"
+L["autostat.range"] = "Дистанция"
 L["autostat.penetration"] = "Мощность прострела"
 L["autostat.muzzlevel"] = "Дульная скорость"
 L["autostat.meleetime"] = "Время атаки в ближнем бою"
@@ -256,7 +256,7 @@ L["attslot.magazine"] = "Магазин"
 
 -- 2021-03-13
 L["trivia.damage"] = "Урон"
-L["trivia.range"] = "Дальность"
+L["trivia.range"] = "Дистанция"
 L["trivia.attackspersecond"] = "Количество атак в секунду"
 L["trivia.description"] = "Описание"
 L["trivia.meleedamagetype"] = "Тип повреждения"
@@ -290,7 +290,7 @@ L["ui.lockinv"] = "Эти модули оружия открыты для все
 L["autostat.ammotype"] = "Изменяет тип боеприпасов оружия на: %s"
 
 -- 2021-05-08
-L["autostat.rangemin"] = "Минимальная дальность"
+L["autostat.rangemin"] = "Минимальная дистанция"
 
 -- 2021-05-13
 L["autostat.malfunctionmean"] = "Надёжность"

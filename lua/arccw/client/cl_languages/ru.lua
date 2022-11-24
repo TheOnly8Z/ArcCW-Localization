@@ -161,7 +161,7 @@ L["arccw.cvar.scope_clr"]                 = "Цвет при прицелива�
 -- ArcCW_Options_Mults
 L["arccw.cvar.mult_damage"]               = "Урон"
 L["arccw.cvar.mult_npcdamage"]            = "Урон по NPC"
-L["arccw.cvar.mult_range"]                = "Дальность"
+L["arccw.cvar.mult_range"]                = "Дистанция"
 L["arccw.cvar.mult_recoil"]               = "Отдача"
 L["arccw.cvar.mult_penetration"]          = "Мощность прострела"
 L["arccw.cvar.mult_accuracy"]             = "Точность"
