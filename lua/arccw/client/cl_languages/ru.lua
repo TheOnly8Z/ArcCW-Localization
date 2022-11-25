@@ -361,10 +361,10 @@ L["arccw.cvar.mult_rpm"] = "Скорострельность"
 L["arccw.cvar.mult_rpm.desc"] = "Может быть катастрофическим для производительности. Может также доставить массу удовольствия."
 
 -- 2021-08-16
-L["arccw.cvar.dev_benchgun"] = "Benchgun"
+L["arccw.cvar.dev_benchgun"] = "Тестировочная модель"
 L["arccw.cvar.dev_benchgun.desc"] = "Помещает модель оружия в неподвижное положение, обычно в начало мира."
-L["arccw.cvar.dev_benchgun_custom"] = "Польз. Benchgun"
-L["arccw.cvar.dev_benchgun_custom.desc"] = "Пользовательское местоположение для размещения модели оружия. Используйте getpos и поместите результат сюда.\nПример:\nsetpos 61 -397 -63;setang 0 96 0"
+L["arccw.cvar.dev_benchgun_custom"] = "Своя тестировочная модель"
+L["arccw.cvar.dev_benchgun_custom.desc"] = "Пользовательское местоположение для размещения модели оружия. Используйте параметр getpos и поместите результат сюда.\nПример:\nsetpos 61 -397 -63;setang 0 96 0"
 
 -- 2021-08-18
 L["arccw.cvar.crosshair_prong_top"] = "Показывать верхний зубец"
